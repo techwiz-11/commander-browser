@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\commander]
+@="URL:Commander Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\commander\shell]
+
+[HKEY_CLASSES_ROOT\commander\shell\open]
+
+[HKEY_CLASSES_ROOT\commander\shell\open\command]
+@="\"C:\\Users\\CommanderAmmad\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\" \"C:\\Users\\CommanderAmmad\\CommanderBrowser\\commander_browser.py\" \"%1\""
