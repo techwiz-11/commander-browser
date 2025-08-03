@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #0077b6, #caf0f8);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+#searchBox {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #00b4d8;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0096c7;
+}
+
+.quick-links {
+  margin-top: 30px;
+}
+
+.quick-links a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #023e8a;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  transition: background 0.3s;
+}
+
+.quick-links a:hover {
+  background-color: #0077b6;
+}
