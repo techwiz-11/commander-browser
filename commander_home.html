@@ -13,77 +13,9 @@
 
     h1 {
       font-size: 40px;
-      animation: glow 2s infinite alternate;
-    }
-
-    @keyframes glow {
-      from { text-shadow: 0 0 10px #00b4d8; }
-      to { text-shadow: 0 0 20px #0077b6; }
     }
 
     .btn {
       display: inline-block;
       padding: 12px 20px;
       margin: 10px;
-      background: #0077b6;
-      color: white;
-      border-radius: 10px;
-      text-decoration: none;
-      font-size: 18px;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: #023e8a;
-    }
-
-    h2 {
-      color: #0077b6;
-      margin-top: 50px;
-    }
-
-    input[type="text"] {
-      padding: 10px;
-      font-size: 16px;
-      border: 2px solid #0077b6;
-      border-radius: 6px;
-      width: 400px;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- 🔊 Button Sound -->
-  <audio id="clickSound" src="click.mp3"></audio>
-  <script>
-    function playClick() {
-      document.getElementById("clickSound").play();
-    }
-    window.onload = () => {
-      document.querySelectorAll('.btn').forEach(btn => {
-        btn.addEventListener('click', playClick);
-      });
-    };
-  </script>
-
-  <!-- 🔊 Background Music -->
-  <audio autoplay loop hidden>
-    <source src="bgmusic.mp3" type="audio/mpeg">
-  </audio>
-
-  <h1>Welcome to Ammad Faisal Browser </h1>
-
-  <!-- 🔍 Google Search -->
-  <form action="https://www.google.com/search" method="GET">
-    <input type="text" name="q" placeholder="Search Google...">
-  </form>
-
-  <!--Games Section -->
-  <h2> Games platform</h2>
-
-  
-
- 
-
-</body>
-</html>
